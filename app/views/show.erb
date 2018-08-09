@@ -1,7 +1,7 @@
 <h6>Title</h6>
-<%= @post.name%>
+<%= @post.name %>
 <h6>Content</h6>
-<%= @post.content%>
+<%= @post.content %>
 <form method="post" action="/posts/<%=@post.id%>/delete">
   <input id="hidden" type="hidden" name="_method" value="delete">
 
